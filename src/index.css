@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Manrope:wght@600;800&family=Outfit:wght@400;500;700&family=Plus+Jakarta+Sans:wght@500;700&family=Red+Hat+Text:wght@700&family=Work+Sans:ital,wght@0,300;0,600;1,400;1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+body{
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'Red Hat Text';
+  overflow-x: hidden;
+  background: #1D1E28;
+  background-image: url(./background-images/pattern-hills.svg), url(./background-images/bg-stars.svg);
+  background-position: bottom right -130px, center;
+  background-repeat: no-repeat;
+}
+
+.title{
+  width: 88%;
+  margin: 142px auto 0px auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 6.13636px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.counter-div, .counter-texts{
+  width: 88%;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin: 54px auto 0px auto;
+}
+
+.counter{
+  width: 70px;
+  height: 70px;
+  background: #343650;
+  border-radius: 4px;
+  text-align: center;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 71px;
+  letter-spacing: -1.08px;
+  color: #FB5E84;
+}
+
+.counter-texts{
+  margin: 9px auto 0px auto;
+}
+
+.texts{
+  font-style: normal;
+  width: 22%;
+  font-weight: 700;
+  font-size: 7px;
+  line-height: 9px;
+  text-align: center;
+  letter-spacing: 2.95937px;
+  color: #8385A9
+}
+
+.fb-icon, .pintereset-icon, .instagram-icon{
+  width: 24px;
+  height: 24px;
+}
+
+.footer-div{
+  width: 36%;
+  display: flex;
+  padding-top: 96px;
+  margin: 300px auto 0px auto;
+  gap: 32px;
+}
+
+.fb-icon:hover, .pintereset-icon:hover, .instagram-icon:hover{
+  background: #FB5E84;
+  cursor: pointer;
+}
+
+@media(min-width: 1440px){
+  body{
+    background-position: bottom center;
+  }
+  .title{
+    width: 31%;
+    margin: 132px auto 0px auto;
+    letter-spacing: 7.5px;
+    font-size: 22px;
+    line-height: 29px;
+  }
+  .counter-div{
+    width: 45%;
+    margin: 104px auto 0px auto;
+  }
+  .counter{
+    width: 150px;
+    height: 150px;
+    padding-top: 34px;
+
+    letter-spacing: -2.4px;
+    font-size: 80px;
+    line-height: 71px;
+  }
+  .counter-texts{
+    width: 48%;
+    gap: 32px;
+    margin: 16px auto 0px auto;
+  }
+  .texts{
+    letter-spacing: 5.91875px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .footer{
+    margin: 152px auto 0px auto;
+    background-position: 0%;
+  }
+  .footer-div{
+    width: 10%;
+    padding-top: 100px;
+  }
+}
